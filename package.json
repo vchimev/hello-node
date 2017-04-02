@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/vchimev/hello-node",
   "author": "Vasil Chimev <Vasil.Chimev@gmail.com>",
-  "license": "MIT"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
 }
