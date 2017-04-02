@@ -3,21 +3,19 @@ const requestJSON = {
     "flightList": [{
         "departureStation": "SOF",
         "arrivalStation": "MAD",
-        "departureDate": "2017-04-03"
+        "from": "2017-05-01",
+        "to": "2017-05-31"
     }, {
         "departureStation": "MAD",
         "arrivalStation": "SOF",
-        "departureDate": "2017-04-03"
+        "from": "2017-05-01",
+        "to": "2017-05-31"
     }],
-    "adultCount": 1,
-    "childCount": 0,
-    "infantCount": 0,
-    "wdc": true,
-    "isFlightChange": false
+    "priceType": "regular"
 };
 
 request({
-    url: "https://be.wizzair.com/4.2.1/Api/search/search",
+    url: "https://be.wizzair.com/4.2.1/Api/search/timetable",
     method: "POST",
     json: requestJSON
 }, function (error, response, body) {
