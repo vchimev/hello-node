@@ -1,0 +1,9 @@
+{
+  "name": "hello-node",
+  "version": "0.0.1",
+  "description": "Hello, Node!",
+  "main": "index.js",
+  "repository": "https://github.com/vchimev/hello-node",
+  "author": "Vasil Chimev <Vasil.Chimev@gmail.com>",
+  "license": "MIT"
+}
